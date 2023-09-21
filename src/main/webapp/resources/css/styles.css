@@ -1,0 +1,53 @@
+body {
+    font-family: Ebrima, sans-serif;
+    background: linear-gradient(to left, mediumslateblue, #007bff);
+}
+
+.login {
+    position: absolute;
+    top: 15%;
+    left: 5px;
+    right: 5px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.noAccount {
+    position: absolute;
+    bottom: 1px;
+    right: 10px;
+    left: 10px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для формы */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    font-weight: 600;
+    font-size: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
