@@ -74,13 +74,15 @@ public class UserDaoPostgresImpl implements UserDao {
     @Override
     public User getUserByEmail(String email) {
         Connection connection = DbConnector.getConnection();
-        String sql = "SELECT * FROM \"user\" left join user_role ur on \"user\".user_id = ur.user_id left join role r on r.role_id = ur.role_id  where email = ?";
+//       String sql = "SELECT * FROM \"user\" left join user_role ur on \"user\".user_id = ur.user_id left join role r on r.role_id = ur.role_id  where email = ?";
+        String sql = "SELECT * FROM user where email = " + email;
 
         User user = new User();
         try {
-            PreparedStatement ps = connection.prepareStatement(sql);
-            ps.setString(1, email);
-            ResultSet rs = ps.executeQuery();
+            ResultSet rs = connection.createStatement().executeQuery(sql);
+//            PreparedStatement ps = connection.prepareStatement(sql);
+//            ps.setString(1, email);
+//            ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
                 user.setUserId(rs.getLong("user_id"));

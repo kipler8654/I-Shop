@@ -3,12 +3,15 @@ package ua.ishop.trofimov.controller.RegisterAndLogin;
 import ua.ishop.trofimov.factory.UserServiceFactory;
 import ua.ishop.trofimov.model.User;
 import ua.ishop.trofimov.service.UserService;
+import ua.ishop.trofimov.util.HashUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
 
 public class UserRegistrationServlet extends HttpServlet {
 
@@ -27,6 +30,11 @@ public class UserRegistrationServlet extends HttpServlet {
         
 
         if (password.equals(rPassword)) {
+            try {
+                password = HashUtils.getSHA256SecurePassword(password);
+            } catch (NoSuchAlgorithmException e) {
+                throw new RuntimeException(e);
+            }
             User user = new User(email, password);
             userService.addUser(user);
             resp.sendRedirect("/");

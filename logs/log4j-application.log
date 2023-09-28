@@ -147,3 +147,38 @@
 2023-09-21 15:58:16 INFO  UserLoginServlet:31 - User has loginF0FF093AE1D83984BA040334884326E0
 2023-09-21 15:58:17 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@176290b2
 2023-09-21 15:58:18 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@745bd868
+2023-09-25 19:39:46 INFO  UserLoginServlet:31 - User has login4DD6901EABCA3EEDFC98AC6D21C99693
+2023-09-25 19:39:46 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@1f3c09f
+2023-09-25 19:39:48 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@1e89a594
+2023-09-25 19:39:55 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@55e2b992
+2023-09-28 20:47:30 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@eca1ed
+2023-09-28 20:48:00 INFO  UserLoginServlet:31 - User has loginA8C07A1D22DFA0160C07F7B1B33C3CA0
+2023-09-28 20:48:00 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@47c6e77
+2023-09-28 20:48:46 INFO  UserLoginServlet:31 - User has loginC30A46899D68C919E5F63D35EC7EFD7A
+2023-09-28 20:48:47 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@61af26cc
+2023-09-28 20:48:48 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@1831f597
+2023-09-28 20:48:50 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@45d02837
+2023-09-28 20:52:17 INFO  UserLoginServlet:33 - User has login6F5E8CB3C36F7F85609CC889B7E9278E
+2023-09-28 20:52:18 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@bf06413
+2023-09-28 20:52:21 INFO  UserLoginServlet:33 - User has login6F5E8CB3C36F7F85609CC889B7E9278E
+2023-09-28 20:52:21 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@698eb672
+2023-09-28 20:52:24 INFO  UserLoginServlet:33 - User has login6F5E8CB3C36F7F85609CC889B7E9278E
+2023-09-28 20:52:24 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@c4871a5
+2023-09-28 20:52:25 INFO  UserLoginServlet:33 - User has login6F5E8CB3C36F7F85609CC889B7E9278E
+2023-09-28 20:52:26 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@4b4d5dd7
+2023-09-28 20:52:34 INFO  UserLoginServlet:33 - User has login6F5E8CB3C36F7F85609CC889B7E9278E
+2023-09-28 20:52:34 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@336f21f2
+2023-09-28 20:52:47 INFO  UserLoginServlet:33 - User has login6F5E8CB3C36F7F85609CC889B7E9278E
+2023-09-28 20:52:47 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@2f650326
+2023-09-28 21:00:50 INFO  UserLoginServlet:33 - User has login5282F54690CCCBAE75CF4B246EF6EA81
+2023-09-28 21:00:50 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@3b34c39d
+2023-09-28 21:02:56 INFO  UserLoginServlet:33 - User has login9933DC7825D4634043B897FCF92377C5
+2023-09-28 21:02:56 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@5ca581f4
+2023-09-28 21:04:50 INFO  UserLoginServlet:33 - User has loginA0431D1182BB600704E239A5E2A970E8
+2023-09-28 21:04:50 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@29157ef4
+2023-09-28 21:05:51 INFO  UserLoginServlet:33 - User has loginA12E33887C818E94028E0D5FBE81906A
+2023-09-28 21:05:51 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@7e5447f6
+2023-09-28 21:05:57 INFO  UserLoginServlet:33 - User has loginA12E33887C818E94028E0D5FBE81906A
+2023-09-28 21:05:57 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@5fd5e169
+2023-09-28 21:06:11 INFO  UserLoginServlet:33 - User has loginA12E33887C818E94028E0D5FBE81906A
+2023-09-28 21:06:11 DEBUG DbConnector:28 - connectionorg.postgresql.jdbc.PgConnection@4b17cf25

@@ -100,11 +100,11 @@ public class ProductDaoPostgresImpl implements ProductDao {
 
     @Override
     public void updateProduct(Product product) {
-        String sql = "UPDATE \"product\" SET name = ?, price = ?, price = ? WHERE product_id = ?";
+        String sql = "UPDATE \"product\" SET name = ?, price = ?, description = ? WHERE product_id = ?";
         try {
             Connection connection = DbConnector.getConnection();
             PreparedStatement ps = connection.prepareStatement(sql);
-            ps.setString(1, product.getName());
+            ps.setString(1, product.getName());;
             ps.setString(2, product.getDescription());
             ps.setLong(3, product.getProductId());
             ps.executeUpdate();
